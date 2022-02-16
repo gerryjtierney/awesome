@@ -28,3 +28,10 @@ Apologies for high-contrast colours still in effect, I use these when working wi
 see where everything is currently sitting.
 
 
+***IMPORTANT***
+
+Since pulling and running this code myself, there seems to be an issue with the Idea component, specifically this on line 55:
+<div className="Idea-description-attachments">{attachments.map((interaction) => <AttachmentCard name={interaction.name} />)}</div>
+
+When the map method is removed, the file saved, and the method restored, the attachments on the page load fine with no errors. I can't
+find what's causing this, and it didn't do it in production!!
