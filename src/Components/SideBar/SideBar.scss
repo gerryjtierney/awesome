@@ -1,0 +1,11 @@
+$text-color: #757575;
+
+.SideBar{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    background-color: white;
+    color: $text-color
+}
