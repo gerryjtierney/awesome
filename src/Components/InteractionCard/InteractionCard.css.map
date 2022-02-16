@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,cAAc;CACzB;;AAED,AAAA,oCAAoC,CAAA;EAChC,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,GAAG;CACrB",
-    "sources": [
-        "InteractionCard.scss"
-    ],
-    "names": [],
-    "file": "InteractionCard.css"
-}
