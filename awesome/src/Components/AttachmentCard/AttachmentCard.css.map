@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,GAAG;EACX,SAAS,EAAE,KAAK;CAMnB;;AATD,AAKI,eALW,CAKX,IAAI,CAAA;EACA,KAAK,EAAC,KAAK;EACX,gBAAgB,EAAE,KAAK;CAC1B",
+    "sources": [
+        "AttachmentCard.scss"
+    ],
+    "names": [],
+    "file": "AttachmentCard.css"
+}

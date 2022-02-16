@@ -1,0 +1,83 @@
+@media screen and (min-width: 601px) {
+  .IdeaCard {
+    color: #2F87C7;
+    padding: 1em;
+    margin: 1em;
+    font-size: 0.8vw;
+    border-radius: 1px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 480px;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 1fr 1fr;
+        grid-template-columns: 3fr 1fr 1fr;
+  }
+  .IdeaCard .IdeaCard-name {
+    color: #2F87C7;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .IdeaCard {
+    color: #2F87C7;
+    padding: 1em;
+    margin: 1em;
+    font-size: 0.8em;
+    border-radius: 1px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    display: block;
+    width: 360px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 1fr 1fr;
+        grid-template-columns: 3fr 1fr 1fr;
+  }
+  .IdeaCard .IdeaCard-name {
+    color: #2F87C7;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .IdeaCard {
+    color: #2F87C7;
+    padding: 1em;
+    margin: 1em;
+    font-size: 0.6em;
+    border-radius: 1px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    display: block;
+    width: 240px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 1fr 1fr;
+        grid-template-columns: 3fr 1fr 1fr;
+  }
+  .IdeaCard .IdeaCard-name {
+    color: #2F87C7;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=IdeaCard.css.map */

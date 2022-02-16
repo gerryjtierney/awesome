@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-size: 1em;
+    background: #f4f4f5;
+    color: #7a7979;
+}
+
+li{
+    list-style: none;
+}
+
+
+.home{
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+
+
+    .topBar{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: #f4f5f6;
+        align-items: end;
+        justify-content: start;
+        padding-left: 3vw;
+        border-bottom: solid 1px rgba(200, 200, 200, 0.8);
+    }
+
+}
+

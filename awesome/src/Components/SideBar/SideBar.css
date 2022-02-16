@@ -1,0 +1,13 @@
+.SideBar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 13;
+  background-color: white;
+  color: #757575;
+}
+/*# sourceMappingURL=SideBar.css.map */
